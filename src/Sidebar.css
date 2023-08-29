@@ -1,0 +1,53 @@
+.Sidebar {
+    width: 300px;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .Sidebar-header {
+    background-color: #e0e0e0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .Sidebar-content {
+    padding: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .validation-message {
+    color: red;
+    font-size: 14px;
+  }
+  
